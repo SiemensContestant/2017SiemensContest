@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/activity_bycustom"
+    android:title="@string/title"
+    android:icon="@mipmap/ic_launcher">
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/back_fab_3"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_back_fob_img"
+        app:layout_anchorGravity="center_vertical|center_horizontal"
+        android:layout_gravity="bottom|right"
+        app:backgroundTint="@color/colorPrimaryDark"
+        app:elevation="3dp"
+        app:fabSize="normal"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="21dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/custom_spinner"
+        android:textSize="24sp"
+        android:layout_alignTop="@+id/custom_food_amt"
+        android:layout_toEndOf="@+id/custom_food_amt"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/custom_carb_tb"
+        android:hint="Enter Carbs"
+        android:layout_below="@+id/custom_food_amt"
+        android:layout_alignStart="@+id/custom_food_amt"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/custom_food"
+        android:text="Custom food item:"
+        android:textAlignment="textStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:padding="3dp"
+        android:textColor="#FF303F9F"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/back_fab_3"
+        android:layout_marginStart="13dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Name of Food"
+        android:ems="10"
+        android:layout_marginTop="40dp"
+        android:id="@+id/custom_food_tb"
+        android:layout_below="@+id/custom_food"
+        android:layout_alignStart="@+id/custom_food"
+        android:layout_marginStart="11dp" />
+
+    <EditText
+        android:id="@+id/custom_food_amt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:hint="Enter Amount Eaten"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/custom_food_tb"
+        android:layout_alignStart="@+id/custom_food_tb" />
+
+    <TextView
+        android:text="carbs (g)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="24sp"
+        android:layout_alignBaseline="@+id/custom_carb_tb"
+        android:layout_alignBottom="@+id/custom_carb_tb"
+        android:layout_toEndOf="@+id/custom_carb_tb"
+        android:layout_marginStart="9dp" />
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">DiaHelp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Insulin Dosage Calculator</string>
+    <string-array name="food_by_servings">
+        <item>Tomato Juice|4.0</item>
+        <item>Sweet Tea|21.0</item>
+        <item>Apple Juice|13.8</item>
+        <item>Falafel|18.1</item>
+        <item>Cooked Egg|19.2</item>
+        <item>Udon|19.1</item>
+        <item>Tuna Salad|16.0</item>
+        <item>Milk|13</item>
+        <item>Multigrain Cereal|49</item>
+        <item>Grapefruit|12.6</item>
+        <item>Waffle|16.2</item>
+        <item>PB&amp;J Sandwich|31</item>
+        <item>Lays Potato Chips|15</item>
+        <item>Pita Chips|29</item>
+        <item>Apple|27.5</item>
+        <item>Banana|48.6</item>
+        <item>Chicken Tenders|15.75</item>
+        <item>Pizza Slice|56</item>
+        <item>Tortilla|22</item>
+        <item>Fried Cod|8</item>
+        <item>Ice Cream Cone|48</item>
+        <item>Ice Cream Bar|39.1</item>
+        <item>Fruit Bar|10.8</item>
+        <item>Smoothie|30.25</item>
+    </string-array>
+    <string-array name="food_by_mass">
+        <item>Bread|1.2</item>
+        <item>White Rice|2.1</item>
+        <item>Brown Rice|1.2</item>
+        <item>Pasta|0.27</item>
+        <item>Yogurt|0.07</item>
+        <item>Kiwi|0.15</item>
+    </string-array>
+    <string-array name="custom_spinner_options">
+        <item>servings</item>
+        <item>grams</item>
+    </string-array>
+</resources>
+

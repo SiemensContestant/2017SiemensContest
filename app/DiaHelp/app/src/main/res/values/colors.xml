@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#d940ff</color>
+    <color name="tableText">#696969</color>
+    <color name="needInfo">#8B0000</color>
+    <color name="weGucci">#006400</color>
+    <color name="tenativeDose">#CCCC00</color>
+</resources>

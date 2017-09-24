@@ -1,0 +1,10 @@
+Milk 1.570
+Chicken 1.600
+Cereal 1.610
+Falafel 1.500
+CLIF Bar 1.560
+Rice 1.700
+Grapefruit Juice 1.480
+Turkey Jerky 1.180
+Orange 1.250
+Pack of Oreos 1.670
