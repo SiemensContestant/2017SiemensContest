@@ -1,3 +1,3 @@
 # 2017SiemensContest
 ## DiaHelp
-mobile app that uses a machine learning algorithm to improve insulin dosage accuracy
+Mobile Application and Machine Learning Algorithm that improves insulin dosage accuracy for Type 1 Diabetics
